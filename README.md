@@ -17,10 +17,10 @@
 Le projet repose sur une architecture modulaire intégrant plusieurs composants d'intelligence artificielle :
 
 ```
-┌─────────┐    ┌──────────────┐    ┌─────────────┐    ┌─────────────┐    ┌──────────────┐
-│ Webcam  │───▶│  MediaPipe   │───▶│ Canvas 2D   │───▶│ Point-E     │───▶│ Open3D       │
-│         │    │  Hands       │    │ Drawing     │    │ Pipeline    │    │ Viewer       │
-└─────────┘    └──────────────┘    └─────────────┘    └─────────────┘    └──────────────┘
+┌─────────┐     ┌──────────────┐     ┌─────────────┐     ┌─────────────┐     ┌──────────────┐
+│ Webcam  │───▶│  MediaPipe    │───▶│ Canvas 2D   │───▶│ Point-E     │───▶ │ Open3D       │
+│         │     │  Hands       │     │ Drawing     │     │ Pipeline    │     │ Viewer       │
+└─────────┘     └──────────────┘     └─────────────┘     └─────────────┘     └──────────────┘
 ```
 
 ###  Composants principaux
@@ -87,10 +87,8 @@ python main_pipeline.py
 
 ### Exemples de génération
 
-```
-Croquis 2D (chaise)  →  Nuage de points 3D (4096 points)
-Croquis 2D (lampe)   →  Nuage de points 3D (4096 points)
-```
+![Demo animation](Project/PointE/test_results/lamp/Enregistrement 2026-01-26 221422.mp4)
+
 
 ### Limitations connues
 
