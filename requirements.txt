@@ -1,0 +1,25 @@
+# Handsketch3D - Requirements
+# ============================
+
+# === CORE DEPENDENCIES ===
+# Vision et détection
+opencv-python>=4.8.0
+mediapipe>=0.10.0
+
+# Traitement numérique
+numpy>=1.24.0
+scipy>=1.10.0
+Pillow>=9.0.0
+
+# Visualisation 3D
+open3d>=0.17.0
+matplotlib>=3.7.0
+tqdm>=4.65.0
+
+# Pour activer la génération 3D avec Point-E, décommentez les lignes ci-dessous
+# ou exécutez: python Project/PointE/setup_pointe.py
+# torch>=2.0.0
+# torchvision>=0.15.0
+# clip @ git+https://github.com/openai/CLIP.git
+# point-e @ git+https://github.com/openai/point-e.git
+
